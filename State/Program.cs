@@ -11,8 +11,10 @@ namespace State
             MaquinaDeCocaCola cliente = new MaquinaDeCocaCola(20);
 
             cliente.InserirDinheiro();
-            cliente.EscolherProduto();
             cliente.RemoverDinheiro();
+            cliente.InserirDinheiro();
+            cliente.EscolherProduto();
+
         }
     }
 }
